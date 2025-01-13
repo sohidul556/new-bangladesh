@@ -1,0 +1,17 @@
+
+/* Nav title */
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px200px
+    ;
+}
