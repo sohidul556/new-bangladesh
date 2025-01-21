@@ -1,17 +1,110 @@
 
-/* Nav title */
+/* font style */
+
+.fira-sans-normal{
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
 
 
-#hero{
+  .headers{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px, 100px, 80px, 100px;
+    
+  }
+  /*nav style*/
+
+nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 20px;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
-#title {
+nav ul li{
+    list-style: none;
+}
+    
+.bd-logo{color: #006A50;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-primary{
+color: #006A50;
+de
+}
+
+.banner{
+display: flex ;
+justify-content: space-between;
+background: rgb(198, 228, 214);
+border-radius: 24px;
+padding:117px;
+gap: 64px;
+
+}
+
+.title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+margin-top: 10px;
+align-content: center;
+}
+.title-bd{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.banner-content{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px200px
-    ;
+    flex-direction: column;
+    position: static;
+    width: 622px;
+    height: 201px;
+    
+}
+.btn-primary-2{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+/* pillarls of Bangladesh */
+
+.pillar-all{
+    display:flex;
+    gap:24px;
+}
+.pillar-bd{
+    margin-top: 80px;
+    margin-bottom: 32px;
+    font-weight: 700px;
+    font-size: 40px;
+    row: height 48px;
+}
+.pillar{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 24px;
+    
 }
