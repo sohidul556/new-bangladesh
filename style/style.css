@@ -7,10 +7,9 @@
     font-style: normal;
   }
 
-
   .headers{
     max-width: 1280px;
-    margin: 0 auto;
+    margin: auto;
     padding: 80px, 100px, 80px, 100px;
     
   }
@@ -25,40 +24,44 @@ align-items: center;
 nav ul li{
     list-style: none;
 }
-    
-.bd-logo{color: #006A50;
+
+.bd-logo{
+    color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 32px;
-    font-weight: 700;
+    font-weight:700;
     line-height: 38px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.btn-primary{
-color: #006A50;
-de
 }
 
+.btn-primary{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 106, 80);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 116px;
+    height: 52px;
+}
+/* header style */
 .banner{
-display: flex ;
+    display: flex;
 justify-content: space-between;
 background: rgb(198, 228, 214);
 border-radius: 24px;
 padding:117px;
 gap: 64px;
-
 }
-
 .title{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 56px;
 font-weight: 700;
-line-height: 67px;
-letter-spacing: 0%;
-margin-top: 10px;
 align-content: center;
 }
+
 .title-bd{
     color: rgba(14, 14, 14, 0.5);
 font-family: Fira Sans;
@@ -69,25 +72,17 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-
-.banner-content{
-    display: flex;
-    flex-direction: column;
-    position: static;
-    width: 622px;
-    height: 201px;
-    
-}
 .btn-primary-2{
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
+    background-color:rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 18px;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: center;
     
 }
 /* pillarls of Bangladesh */
@@ -101,10 +96,358 @@ text-align: left;
     margin-bottom: 32px;
     font-weight: 700px;
     font-size: 40px;
-    row: height 48px;
+    height: 48px;
 }
 .pillar{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 24px;
+    
+}
+.pillar-discription{
+    font:fira sans;
+    font-weight: 400px;
+    font-size: 16px;
+    height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.pillar-title{
+    font:fira sans;
+    font-weight: 700px;
+    font-size: 20px;
+    height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* the vision of future  */
+.visionkaku{
+    display: flex;
+    gap: 32px;
+    border-radius: 16px;
+}
+.future{
+    margin-top: 80px;
+    margin-bottom: 32px;
+    font-weight: 700px;
+    font-size: 40px;
+    height: 48px;
+}
+
+.vision-1{
+    background-color:rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.vision-2{
+    background-color:rgb(198, 228, 214);
+    padding: 32px;
+}
+.vision-3{
+    background-color:rgb(247, 235, 207);
+    padding: 32px;
+}
+
+/* btn style */
+
+.btn-primary-3{
+    background-color: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-primary-4{
+    background-color: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-primary-5{
+    background-color: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Dr. Muhammad Yunus */
+.comments{
+    margin-top: 32px;
+    padding: 24px 24px 112px 24px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cmoment-picture{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.comment-discription{
+    Font: Fira Sans;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 24px;
+}
+.qutes{
+    padding: 24px;
+    Font: Fira Sans;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+}
+.rank{
+    margin:0px;
+}
+
+/* recent news: */
+
+.news-title-1{
+    Font: Fira Sans;
+    font-weight: 700;
+    font-size: 40px;
+    height: 48px;
+}
+.new-discription{
+    Font: Fira Sans;
+    font-weight: 400px;
+    font-size: 16px;
+    height: 24px;
+    color: rgb(14, 14, 14);
+}
+.news-1{
+    display: flex;
+    gap: 32px;
+    padding: 48px 48px 48px 48px;
+     
+}
+.date{
+    Font: Fira Sans
+    Font weight: 700;
+    Font size: 40px;
+    Row height: 48px;
+    Align: Align left;
+}
+.newsall{
+    background-color: rgba(255, 255, 255, 1.00);
+    
+}
+.spicture{
+    width: 408px;
+    height: 306px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 50px;
+}
+.btn-primary-6{
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 13px 26px 13px 26px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.news-title{
+    Font: Fira Sans;
+    font-weight: 700;
+    font-size: 32px;
+    height: 38px;
+    color: rgba(14, 14, 14, 0.8);
+}
+    /* donate today */
+
+.donate-titel{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    height: 48px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btn-primary-7{
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 14, 14, 0.8);
+    border-radius: 16px;
+    padding: 40px 40px 40px 40px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary-8{
+    background-color: rgba(255, 255, 255, 1.00);
+    padding: 20px 40px 80px 20px;
+    margin-top: 32px;
+    margin-left: 124px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    width: 1032px;
+    height: 64px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.btn-primary-9{
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 13px 26px 13px 26px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-left: 564.5px;
+    margin-bottom: 80px;
+
+}
+.btn-primary-10{
+    background-color: rgb(198, 228, 214);
+    color: rgb(14, 14, 14, 0.8);
+    border-radius: 16px;
+    padding: 40px 40px 40px 40px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-discription{
+    Font: Fira Sans;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+
+.Amount{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* News Subcription Newsletter */
+
+.newsletterblock{
+    display: flex;
+    text-align: center;
+    gap: 80px;
+}
+.sletter{
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    height: 395px;
+    width: 1280px;
+
+}
+
+.newsletter-title{
+    padding-top: 80px;
+    padding-left: 329px;right: 329px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    height: 48px;
+    text-align: center;
+}
+.newsletter-discription{
+    Font: Fira Sans;
+    color: rgba(14, 14, 14, 0.7);
+    padding-left: 329px;right: 329px;
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: center;
+    width: 622px;
+    height: 48px;
+
+}
+
+.btn-primary-11{
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    padding: 17px, 34px, 17px, 34px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 56px;
+    Width: 150px;
+    
+}
+    
+.container{
+    padding: 18px, 40px, 18px, 40px;
+    Width: 600px;
+    Height: 50px;
+    border-radius: 8px,0px,0px,8px;
+    Top: 0px;
+    left: 0px;
+    margin-left: 265px;
+
+}
+
+.sub-email{
+    display: flex;
+    text-align: center;
+
+}
+.noteded{
+    Font: Fira Sans;
+    color: rgba(14, 14, 14, 0.7);
+    padding-left: 329px;right: 329px;
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: center;
+    width: 622px;
+    height: 19px;
+}
+/* footer of bangladesh */
+
+
+.footer{
+    
+    text-align: center;
+    width: 1280px;
+    padding-top: 32px;
+    margin-top: 64px;
+    padding-bottom: 50px;
+    
+
+}
+
+
+.footer-title{
+    display: flex;
+    gap: 15px;
+    margin-left: 579.73px;
     
 }
